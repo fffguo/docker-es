@@ -1,0 +1,12 @@
+setup.kibana.host: http://172.17.0.1:5601
+
+output.elasticsearch.hosts: ["http://172.17.0.1:9200"]
+output.elasticsearch.username: "elastic"
+output.elasticsearch.password: "elastic"
+
+heartbeat.monitors: 
+- type: http
+  urls: ["http://172.17.0.1:9200"]
+  schedule: "@every 5s"
+  username: "elastic"
+  password: "elastic"

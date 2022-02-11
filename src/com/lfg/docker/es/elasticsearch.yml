@@ -1,0 +1,14 @@
+cluster.name: "es-docker-cluster"
+network.host: 0.0.0.0
+bootstrap.memory_lock: true
+# 开启安全验证
+xpack.security.enabled: true
+#api秘钥
+xpack.security.authc.api_key.enabled: true
+# 开启ssl证书验证
+xpack.security.transport.ssl.enabled: true
+xpack.security.transport.ssl.verification_mode: certificate 
+xpack.security.transport.ssl.client_authentication: required
+xpack.security.transport.ssl.keystore.path: elastic-certificates.p12
+xpack.security.transport.ssl.truststore.path: elastic-certificates.p12
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4a0643b0-0a8b-4c0b-a623-356eb53d06cb" name="wsl ubuntu">
+        <fileTransfer rootFolder="/home/root/docker-compose/es" accessType="SFTP" host="127.0.0.1" port="22" sshConfigId="033acf55-a918-42a6-b6d0-8c472b977baf" sshConfig="root@127.0.0.1:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

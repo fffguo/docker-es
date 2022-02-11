@@ -1,0 +1,295 @@
+2022/02/11 07:20:22 [emerg] 1#1: no host in upstream "/172.17.0.1:5601" in /etc/nginx/nginx.conf:17
+2022/02/11 07:20:25 [emerg] 1#1: no host in upstream "/172.17.0.1:5601" in /etc/nginx/nginx.conf:17
+2022/02/11 07:20:27 [emerg] 1#1: no host in upstream "/172.17.0.1:5601" in /etc/nginx/nginx.conf:17
+2022/02/11 07:20:30 [emerg] 1#1: no host in upstream "/172.17.0.1:5601" in /etc/nginx/nginx.conf:17
+2022/02/11 07:20:32 [emerg] 1#1: no host in upstream "/172.17.0.1:5601" in /etc/nginx/nginx.conf:17
+2022/02/11 07:20:35 [emerg] 1#1: no host in upstream "/172.17.0.1:5601" in /etc/nginx/nginx.conf:17
+2022/02/11 07:20:40 [emerg] 1#1: no host in upstream "/172.17.0.1:5601" in /etc/nginx/nginx.conf:17
+2022/02/11 07:20:48 [emerg] 1#1: no host in upstream "/172.17.0.1:5601" in /etc/nginx/nginx.conf:17
+2022/02/11 07:21:02 [emerg] 1#1: no host in upstream "/172.17.0.1:5601" in /etc/nginx/nginx.conf:17
+2022/02/11 07:21:29 [notice] 1#1: using the "epoll" event method
+2022/02/11 07:21:29 [notice] 1#1: nginx/1.21.6
+2022/02/11 07:21:29 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/11 07:21:29 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/02/11 07:21:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/11 07:21:29 [notice] 1#1: start worker processes
+2022/02/11 07:21:29 [notice] 1#1: start worker process 25
+2022/02/11 07:21:29 [notice] 1#1: start worker process 26
+2022/02/11 07:21:29 [notice] 1#1: start worker process 27
+2022/02/11 07:21:29 [notice] 1#1: start worker process 28
+2022/02/11 07:21:29 [notice] 1#1: start worker process 29
+2022/02/11 07:21:29 [notice] 1#1: start worker process 30
+2022/02/11 07:21:29 [notice] 1#1: start worker process 31
+2022/02/11 07:21:29 [notice] 1#1: start worker process 32
+2022/02/11 07:21:29 [notice] 1#1: start worker process 33
+2022/02/11 07:21:29 [notice] 1#1: start worker process 34
+2022/02/11 07:21:29 [notice] 1#1: start worker process 35
+2022/02/11 07:21:29 [notice] 1#1: start worker process 36
+2022/02/11 07:21:29 [notice] 1#1: start worker process 37
+2022/02/11 07:21:29 [notice] 1#1: start worker process 38
+2022/02/11 07:21:29 [notice] 1#1: start worker process 39
+2022/02/11 07:21:29 [notice] 1#1: start worker process 40
+2022/02/11 07:21:49 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:21:51 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:21:52 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:21:52 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:21:52 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:21:53 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:21:55 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:21:55 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:21:55 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:21:55 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:21:56 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:21:56 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:22:33 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:22:33 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:22:34 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:22:34 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:22:34 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:22:34 [error] 25#25: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:29:37 [error] 31#31: *54 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:30:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/11 07:30:42 [notice] 25#25: gracefully shutting down
+2022/02/11 07:30:42 [notice] 25#25: exiting
+2022/02/11 07:30:42 [notice] 26#26: gracefully shutting down
+2022/02/11 07:30:42 [notice] 25#25: exit
+2022/02/11 07:30:42 [notice] 26#26: exiting
+2022/02/11 07:30:42 [notice] 27#27: gracefully shutting down
+2022/02/11 07:30:42 [notice] 26#26: exit
+2022/02/11 07:30:42 [notice] 28#28: gracefully shutting down
+2022/02/11 07:30:42 [notice] 27#27: exiting
+2022/02/11 07:30:42 [notice] 28#28: exiting
+2022/02/11 07:30:42 [notice] 27#27: exit
+2022/02/11 07:30:42 [notice] 28#28: exit
+2022/02/11 07:30:42 [notice] 29#29: gracefully shutting down
+2022/02/11 07:30:42 [notice] 29#29: exiting
+2022/02/11 07:30:42 [notice] 30#30: gracefully shutting down
+2022/02/11 07:30:42 [notice] 29#29: exit
+2022/02/11 07:30:42 [notice] 31#31: gracefully shutting down
+2022/02/11 07:30:42 [notice] 30#30: exiting
+2022/02/11 07:30:42 [notice] 30#30: exit
+2022/02/11 07:30:42 [notice] 32#32: gracefully shutting down
+2022/02/11 07:30:42 [notice] 33#33: gracefully shutting down
+2022/02/11 07:30:42 [notice] 32#32: exiting
+2022/02/11 07:30:42 [notice] 31#31: exiting
+2022/02/11 07:30:42 [notice] 33#33: exiting
+2022/02/11 07:30:42 [notice] 32#32: exit
+2022/02/11 07:30:42 [notice] 34#34: gracefully shutting down
+2022/02/11 07:30:42 [notice] 31#31: exit
+2022/02/11 07:30:42 [notice] 33#33: exit
+2022/02/11 07:30:42 [notice] 34#34: exiting
+2022/02/11 07:30:42 [notice] 34#34: exit
+2022/02/11 07:30:42 [notice] 36#36: gracefully shutting down
+2022/02/11 07:30:42 [notice] 36#36: exiting
+2022/02/11 07:30:42 [notice] 35#35: gracefully shutting down
+2022/02/11 07:30:42 [notice] 36#36: exit
+2022/02/11 07:30:42 [notice] 35#35: exiting
+2022/02/11 07:30:42 [notice] 37#37: gracefully shutting down
+2022/02/11 07:30:42 [notice] 38#38: gracefully shutting down
+2022/02/11 07:30:42 [notice] 35#35: exit
+2022/02/11 07:30:42 [notice] 37#37: exiting
+2022/02/11 07:30:42 [notice] 38#38: exiting
+2022/02/11 07:30:42 [notice] 39#39: gracefully shutting down
+2022/02/11 07:30:42 [notice] 37#37: exit
+2022/02/11 07:30:42 [notice] 38#38: exit
+2022/02/11 07:30:42 [notice] 40#40: gracefully shutting down
+2022/02/11 07:30:42 [notice] 39#39: exiting
+2022/02/11 07:30:42 [notice] 39#39: exit
+2022/02/11 07:30:42 [notice] 40#40: exiting
+2022/02/11 07:30:42 [notice] 40#40: exit
+2022/02/11 07:30:42 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2022/02/11 07:30:42 [notice] 1#1: worker process 29 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: worker process 39 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:30:42 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/02/11 07:30:42 [notice] 1#1: worker process 32 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:30:42 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/11 07:30:42 [notice] 1#1: worker process 25 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: worker process 26 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: worker process 33 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: worker process 35 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: worker process 37 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: worker process 38 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: worker process 40 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:30:42 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/11 07:30:42 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/02/11 07:30:42 [notice] 1#1: worker process 28 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: worker process 30 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:30:42 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/02/11 07:30:42 [notice] 1#1: worker process 34 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:30:42 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/02/11 07:30:42 [notice] 1#1: worker process 36 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:30:42 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/02/11 07:30:42 [notice] 1#1: worker process 27 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:30:42 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/02/11 07:30:42 [notice] 1#1: worker process 31 exited with code 0
+2022/02/11 07:30:42 [notice] 1#1: exit
+2022/02/11 07:30:50 [notice] 1#1: using the "epoll" event method
+2022/02/11 07:30:50 [notice] 1#1: nginx/1.21.6
+2022/02/11 07:30:50 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/11 07:30:50 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/02/11 07:30:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/11 07:30:50 [notice] 1#1: start worker processes
+2022/02/11 07:30:50 [notice] 1#1: start worker process 24
+2022/02/11 07:30:50 [notice] 1#1: start worker process 25
+2022/02/11 07:30:50 [notice] 1#1: start worker process 26
+2022/02/11 07:30:50 [notice] 1#1: start worker process 27
+2022/02/11 07:30:50 [notice] 1#1: start worker process 28
+2022/02/11 07:30:50 [notice] 1#1: start worker process 29
+2022/02/11 07:30:50 [notice] 1#1: start worker process 30
+2022/02/11 07:30:50 [notice] 1#1: start worker process 31
+2022/02/11 07:30:50 [notice] 1#1: start worker process 32
+2022/02/11 07:30:50 [notice] 1#1: start worker process 33
+2022/02/11 07:30:50 [notice] 1#1: start worker process 34
+2022/02/11 07:30:50 [notice] 1#1: start worker process 35
+2022/02/11 07:30:50 [notice] 1#1: start worker process 36
+2022/02/11 07:30:50 [notice] 1#1: start worker process 37
+2022/02/11 07:30:50 [notice] 1#1: start worker process 38
+2022/02/11 07:30:50 [notice] 1#1: start worker process 39
+2022/02/11 07:31:02 [error] 24#24: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:31:02 [error] 24#24: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:31:03 [error] 24#24: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:31:03 [error] 24#24: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:31:03 [error] 24#24: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:31:06 [error] 24#24: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:31:07 [error] 24#24: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:31:07 [error] 24#24: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:31:07 [error] 24#24: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.30.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:31:11 [error] 24#24: *2 open() "/etc/nginx/html/46534/bundles/kbn-ui-shared-deps-npm/kbn-ui-shared-deps-npm.v8.light.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /46534/bundles/kbn-ui-shared-deps-npm/kbn-ui-shared-deps-npm.v8.light.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:11 [error] 24#24: *1 open() "/etc/nginx/html/46534/bundles/kbn-ui-shared-deps-src/kbn-ui-shared-deps-src.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /46534/bundles/kbn-ui-shared-deps-src/kbn-ui-shared-deps-src.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:11 [error] 26#26: *4 open() "/etc/nginx/html/node_modules/@kbn/ui-framework/dist/kui_light.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /node_modules/@kbn/ui-framework/dist/kui_light.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:11 [error] 27#27: *5 open() "/etc/nginx/html/ui/legacy_light_theme.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /ui/legacy_light_theme.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:11 [error] 25#25: *6 open() "/etc/nginx/html/bootstrap.js" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /bootstrap.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:11 [error] 27#27: *5 open() "/etc/nginx/html/ui/favicons/favicon.svg" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /ui/favicons/favicon.svg HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:11 [error] 27#27: *5 open() "/etc/nginx/html/ui/favicons/favicon.png" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /ui/favicons/favicon.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:14 [error] 27#27: *5 open() "/etc/nginx/html/46534/bundles/kbn-ui-shared-deps-npm/kbn-ui-shared-deps-npm.v8.light.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /46534/bundles/kbn-ui-shared-deps-npm/kbn-ui-shared-deps-npm.v8.light.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:14 [error] 25#25: *6 open() "/etc/nginx/html/46534/bundles/kbn-ui-shared-deps-src/kbn-ui-shared-deps-src.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /46534/bundles/kbn-ui-shared-deps-src/kbn-ui-shared-deps-src.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:14 [error] 26#26: *4 open() "/etc/nginx/html/node_modules/@kbn/ui-framework/dist/kui_light.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /node_modules/@kbn/ui-framework/dist/kui_light.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:14 [error] 24#24: *1 open() "/etc/nginx/html/ui/legacy_light_theme.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /ui/legacy_light_theme.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:14 [error] 24#24: *2 open() "/etc/nginx/html/bootstrap.js" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /bootstrap.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:17 [error] 24#24: *2 open() "/etc/nginx/html/46534/bundles/kbn-ui-shared-deps-npm/kbn-ui-shared-deps-npm.v8.light.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /46534/bundles/kbn-ui-shared-deps-npm/kbn-ui-shared-deps-npm.v8.light.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:17 [error] 25#25: *6 open() "/etc/nginx/html/node_modules/@kbn/ui-framework/dist/kui_light.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /node_modules/@kbn/ui-framework/dist/kui_light.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:17 [error] 24#24: *1 open() "/etc/nginx/html/46534/bundles/kbn-ui-shared-deps-src/kbn-ui-shared-deps-src.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /46534/bundles/kbn-ui-shared-deps-src/kbn-ui-shared-deps-src.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:17 [error] 26#26: *4 open() "/etc/nginx/html/ui/legacy_light_theme.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /ui/legacy_light_theme.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:19 [error] 26#26: *4 open() "/etc/nginx/html/46534/bundles/kbn-ui-shared-deps-npm/kbn-ui-shared-deps-npm.v8.light.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /46534/bundles/kbn-ui-shared-deps-npm/kbn-ui-shared-deps-npm.v8.light.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:19 [error] 24#24: *1 open() "/etc/nginx/html/46534/bundles/kbn-ui-shared-deps-src/kbn-ui-shared-deps-src.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /46534/bundles/kbn-ui-shared-deps-src/kbn-ui-shared-deps-src.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:19 [error] 24#24: *2 open() "/etc/nginx/html/node_modules/@kbn/ui-framework/dist/kui_light.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /node_modules/@kbn/ui-framework/dist/kui_light.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:19 [error] 25#25: *6 open() "/etc/nginx/html/ui/legacy_light_theme.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /ui/legacy_light_theme.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:19 [error] 27#27: *5 open() "/etc/nginx/html/bootstrap.js" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /bootstrap.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:20 [error] 25#25: *6 open() "/etc/nginx/html/46534/bundles/kbn-ui-shared-deps-src/kbn-ui-shared-deps-src.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /46534/bundles/kbn-ui-shared-deps-src/kbn-ui-shared-deps-src.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:20 [error] 27#27: *5 open() "/etc/nginx/html/46534/bundles/kbn-ui-shared-deps-npm/kbn-ui-shared-deps-npm.v8.light.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /46534/bundles/kbn-ui-shared-deps-npm/kbn-ui-shared-deps-npm.v8.light.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:20 [error] 24#24: *1 open() "/etc/nginx/html/node_modules/@kbn/ui-framework/dist/kui_light.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /node_modules/@kbn/ui-framework/dist/kui_light.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:20 [error] 26#26: *4 open() "/etc/nginx/html/bootstrap.js" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /bootstrap.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:31:20 [error] 24#24: *2 open() "/etc/nginx/html/ui/legacy_light_theme.css" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /ui/legacy_light_theme.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/kibana"
+2022/02/11 07:32:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/11 07:32:34 [notice] 24#24: gracefully shutting down
+2022/02/11 07:32:34 [notice] 25#25: gracefully shutting down
+2022/02/11 07:32:34 [notice] 26#26: gracefully shutting down
+2022/02/11 07:32:34 [notice] 25#25: exiting
+2022/02/11 07:32:34 [notice] 24#24: exiting
+2022/02/11 07:32:34 [notice] 26#26: exiting
+2022/02/11 07:32:34 [notice] 26#26: exit
+2022/02/11 07:32:34 [notice] 24#24: exit
+2022/02/11 07:32:34 [notice] 25#25: exit
+2022/02/11 07:32:34 [notice] 29#29: gracefully shutting down
+2022/02/11 07:32:34 [notice] 28#28: gracefully shutting down
+2022/02/11 07:32:34 [notice] 30#30: gracefully shutting down
+2022/02/11 07:32:34 [notice] 32#32: gracefully shutting down
+2022/02/11 07:32:34 [notice] 33#33: gracefully shutting down
+2022/02/11 07:32:34 [notice] 31#31: gracefully shutting down
+2022/02/11 07:32:34 [notice] 27#27: gracefully shutting down
+2022/02/11 07:32:34 [notice] 29#29: exiting
+2022/02/11 07:32:34 [notice] 28#28: exiting
+2022/02/11 07:32:34 [notice] 30#30: exiting
+2022/02/11 07:32:34 [notice] 34#34: gracefully shutting down
+2022/02/11 07:32:34 [notice] 32#32: exiting
+2022/02/11 07:32:34 [notice] 33#33: exiting
+2022/02/11 07:32:34 [notice] 31#31: exiting
+2022/02/11 07:32:34 [notice] 35#35: gracefully shutting down
+2022/02/11 07:32:34 [notice] 27#27: exiting
+2022/02/11 07:32:34 [notice] 34#34: exiting
+2022/02/11 07:32:34 [notice] 30#30: exit
+2022/02/11 07:32:34 [notice] 29#29: exit
+2022/02/11 07:32:34 [notice] 28#28: exit
+2022/02/11 07:32:34 [notice] 35#35: exiting
+2022/02/11 07:32:34 [notice] 32#32: exit
+2022/02/11 07:32:34 [notice] 38#38: gracefully shutting down
+2022/02/11 07:32:34 [notice] 33#33: exit
+2022/02/11 07:32:34 [notice] 31#31: exit
+2022/02/11 07:32:34 [notice] 27#27: exit
+2022/02/11 07:32:34 [notice] 38#38: exiting
+2022/02/11 07:32:34 [notice] 34#34: exit
+2022/02/11 07:32:34 [notice] 35#35: exit
+2022/02/11 07:32:34 [notice] 36#36: gracefully shutting down
+2022/02/11 07:32:34 [notice] 36#36: exiting
+2022/02/11 07:32:34 [notice] 38#38: exit
+2022/02/11 07:32:34 [notice] 36#36: exit
+2022/02/11 07:32:34 [notice] 39#39: gracefully shutting down
+2022/02/11 07:32:34 [notice] 37#37: gracefully shutting down
+2022/02/11 07:32:34 [notice] 39#39: exiting
+2022/02/11 07:32:34 [notice] 39#39: exit
+2022/02/11 07:32:34 [notice] 37#37: exiting
+2022/02/11 07:32:34 [notice] 37#37: exit
+2022/02/11 07:32:34 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/02/11 07:32:34 [notice] 1#1: worker process 27 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: worker process 30 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: worker process 33 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: worker process 34 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: worker process 36 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:32:34 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/11 07:32:34 [notice] 1#1: worker process 26 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:32:34 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/11 07:32:34 [notice] 1#1: worker process 25 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:32:34 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/02/11 07:32:34 [notice] 1#1: worker process 35 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:32:34 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/02/11 07:32:34 [notice] 1#1: worker process 29 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: worker process 31 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: worker process 37 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: worker process 38 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: worker process 39 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:32:34 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/11 07:32:34 [notice] 1#1: worker process 24 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:32:34 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/02/11 07:32:34 [notice] 1#1: worker process 28 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 07:32:34 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/02/11 07:32:34 [notice] 1#1: worker process 32 exited with code 0
+2022/02/11 07:32:34 [notice] 1#1: exit
+2022/02/11 07:32:39 [notice] 1#1: using the "epoll" event method
+2022/02/11 07:32:39 [notice] 1#1: nginx/1.21.6
+2022/02/11 07:32:39 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/11 07:32:39 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/02/11 07:32:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/11 07:32:39 [notice] 1#1: start worker processes
+2022/02/11 07:32:39 [notice] 1#1: start worker process 24
+2022/02/11 07:32:39 [notice] 1#1: start worker process 25
+2022/02/11 07:32:39 [notice] 1#1: start worker process 26
+2022/02/11 07:32:39 [notice] 1#1: start worker process 27
+2022/02/11 07:32:39 [notice] 1#1: start worker process 28
+2022/02/11 07:32:39 [notice] 1#1: start worker process 29
+2022/02/11 07:32:39 [notice] 1#1: start worker process 30
+2022/02/11 07:32:39 [notice] 1#1: start worker process 31
+2022/02/11 07:32:39 [notice] 1#1: start worker process 32
+2022/02/11 07:32:39 [notice] 1#1: start worker process 33
+2022/02/11 07:32:39 [notice] 1#1: start worker process 34
+2022/02/11 07:32:39 [notice] 1#1: start worker process 35
+2022/02/11 07:32:39 [notice] 1#1: start worker process 36
+2022/02/11 07:32:39 [notice] 1#1: start worker process 37
+2022/02/11 07:32:39 [notice] 1#1: start worker process 38
+2022/02/11 07:32:39 [notice] 1#1: start worker process 39
+2022/02/11 07:32:46 [error] 24#24: *1 open() "/usr/share/nginx/html/kibana" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /kibana HTTP/1.1", host: "127.0.0.1"
+2022/02/11 07:35:48 [error] 26#26: *3 open() "/usr/share/nginx/html/nginx_status" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /nginx_status HTTP/1.1", host: "127.0.0.1"
+2022/02/11 09:21:20 [error] 32#32: *10 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"

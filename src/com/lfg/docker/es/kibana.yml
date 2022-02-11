@@ -1,0 +1,13 @@
+
+server.host: "0.0.0.0"
+server.shutdownTimeout: "5s"
+elasticsearch.hosts: [ "http://172.17.0.1:9200" ]
+monitoring.ui.container.elasticsearch.enabled: true
+# 中文
+i18n.locale: zh-CN
+# 安全校验
+xpack.security.enabled: true
+elasticsearch.username: "kibana_system"
+elasticsearch.password: "kibana_system"
+elasticsearch.ssl.certificateAuthorities: config/elastic-certificates.p12
+elasticsearch.ssl.verificationMode: certificate
